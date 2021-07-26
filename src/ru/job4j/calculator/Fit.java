@@ -8,8 +8,8 @@ public class Fit {
         return (height - 110) * 1.15;
     }
     public static void main(String [] args){
-        double man = Fit.manWeight( 187);
-        double woman = Fit.womanWeight(170);
+        double man = Fit.manWeight((short) 187);
+        double woman = Fit.womanWeight((short) 170);
         System.out.println("Man 187 is " + man);
         System.out.println("Woman 170 is " + woman);
     }
