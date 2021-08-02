@@ -4,8 +4,7 @@ public class Games {
     public static void permission(boolean allowByParent, boolean hasMoney) {
         if (allowByParent && hasMoney) {
             System.out.println("I can go to the game club.");
-        }
-        else {
+        } else {
             System.out.println("I can't.");
         }
     }
