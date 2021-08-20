@@ -7,11 +7,11 @@ public class Slash {
                 boolean left = row == cell;
                 boolean right = row + cell == size - 1;
                 if (left) {
-                    System.out.println("0");
+                    System.out.print("0");
                 } else if (right) {
-                    System.out.println("0");
+                    System.out.print("0");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
