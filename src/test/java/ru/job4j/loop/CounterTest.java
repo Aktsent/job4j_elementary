@@ -15,6 +15,7 @@ public class CounterTest {
         int result = Counter.sumByEven(start, finish);
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenSumEvenNumbers() {
         int start = 2;

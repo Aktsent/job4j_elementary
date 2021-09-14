@@ -9,29 +9,31 @@ public class SwitchArrayTest {
 
     @Test
     public void whenSwap0to3() {
-        int [] input = {1, 2, 3, 4};
+        int[] input = {1, 2, 3, 4};
         int sorce = 0;
-        int dest = input.length -1;
-        int [] result = SwitchArray.swap(input, sorce, dest);
-        int [] expected = {4, 2, 3, 1};
+        int dest = input.length - 1;
+        int[] result = SwitchArray.swap(input, sorce, dest);
+        int[] expected = {4, 2, 3, 1};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void whenSwap3to1() {
-        int [] input = {1, 2, 3, 4};
+        int[] input = {1, 2, 3, 4};
         int source = 3;
-        int dest = input.length -3;
-        int [] result = SwitchArray.swap(input, source, dest);
-        int [] expected = {1, 4, 3, 2};
+        int dest = input.length - 3;
+        int[] result = SwitchArray.swap(input, source, dest);
+        int[] expected = {1, 4, 3, 2};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void when() {
-        int [] input =  {1, 2, 3, 4};
+        int[] input =  {1, 2, 3, 4};
         int sourse = 2;
-        int dest = input.length -3;
-        int [] result = SwitchArray.swap(input, sourse, dest);
-        int [] expected = {1, 3, 2, 4};
+        int dest = input.length - 3;
+        int[] result = SwitchArray.swap(input, sourse, dest);
+        int[] expected = {1, 3, 2, 4};
         Assert.assertArrayEquals(expected, result);
     }
 }

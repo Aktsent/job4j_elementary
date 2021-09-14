@@ -15,6 +15,7 @@ public class SqAreaTest {
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
     public void whenp9k5then281() {
         double p = 9;
@@ -23,6 +24,7 @@ public class SqAreaTest {
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
     public void whenp2k2then022() {
         double p = 2;

@@ -15,6 +15,7 @@ public class MaxTest {
        int expected = 2;
        Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenLeft6Right4Then6() {
        int left = 6;
@@ -23,6 +24,7 @@ public class MaxTest {
        int out = Max.max(left, right);
        Assert.assertEquals(expected, out);
     }
+
     @Test
     public void whenLeft10Right7Then7() {
         int left = 10;
@@ -31,6 +33,7 @@ public class MaxTest {
         int out = Max.max(left, right);
         Assert.assertEquals(expected, out);
     }
+
     @Test
     public void whenLeft6Right6Then6() {
         int left = 6;

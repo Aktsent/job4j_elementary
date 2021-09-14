@@ -14,6 +14,7 @@ public class MinTest {
         int expected = 0;
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenLastMin() {
         int[] array = new int[] {10, 5, 3};
@@ -21,6 +22,7 @@ public class MinTest {
         int expected = 3;
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenMiddleMin() {
         int[] array = new int[] {10, 2, 5};

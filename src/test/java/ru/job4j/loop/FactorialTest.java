@@ -13,6 +13,7 @@ public class FactorialTest {
         int result = Factorial.calc(5);
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenCalculateFactorialForZeroThenOne() {
         int expected = 1;

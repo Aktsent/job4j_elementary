@@ -15,6 +15,7 @@ public class FindLoopTest2 {
         int expected = 0;
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenFind3() {
         int[] data = new int[] {5, 2, 10, 2, 4};
@@ -25,6 +26,7 @@ public class FindLoopTest2 {
         int expected = 3;
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenFind4() {
         int[] data = new int[] {1, 2, 3, 6, 5, 6, 7, 8, 9, 10, 4, 9};
@@ -35,6 +37,7 @@ public class FindLoopTest2 {
         int expected = 10;
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenRslMinus1() {
         int[] data = new int[] {9, 15, 55, 64, 99};
