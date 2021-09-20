@@ -5,7 +5,7 @@ public class Matrix {
         int[][] array = new int[size][size];
         for (int i = 1; i < array.length; i++) {
             for (int j = 1; j < array[i].length; j++) {
-                array[i][j] = i * j;
+                 array[i][j] = i * j;
             }
         }
         return array;
