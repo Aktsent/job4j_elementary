@@ -8,7 +8,7 @@ public class Defragment {
                     Defragment.swap(array, i, j);
                 }
             }
-            }
+        }
         return array;
     }
 
